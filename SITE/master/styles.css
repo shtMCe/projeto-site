@@ -1,6 +1,7 @@
 * {
     font-family: Arial;
     font-size: 16px;
+    text-align: center;
 }
 
 body {
@@ -14,4 +15,16 @@ main {
     margin: auto;
     padding: 15px;
     box-shadow: 3px 3px 5px #000;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 15px;
 }
