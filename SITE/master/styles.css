@@ -23,6 +23,7 @@ main {
 header {
     font-size: 2rem;
     padding: 3rem;
+    border: 2px solid black;
 }
 
 article {
