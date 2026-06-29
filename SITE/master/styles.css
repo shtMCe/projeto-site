@@ -1,30 +1,57 @@
 * {
-    font-family: Arial;
-    font-size: 16px;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #4628c9;
-   
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    background-color: #96a87ee7;
 }
 
 main {
     background-color: #fff;
     width: 500px;
-    margin: auto;
-    padding: 15px;
+    margin: 20px auto;
     box-shadow: 3px 3px 5px #000;
+    border-radius: 10px;
 }
 
-h1 {
-    font-size: 40px;
+header {
+    font-size: 2rem;
+    padding: 3rem;
 }
 
-h2 {
+article {
+    padding: 2rem;
+}
+
+article h2 {
     font-size: 30px;
 }
 
-p {
+article p {
     font-size: 15px;
+    padding: 2rem;
+}
+
+article img {
+    width: 70%;
+    height: auto;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+article ul {
+    list-style: none;
+    margin: 1rem;
+}
+
+article ul li {
+    font-size: 1rem;
+    padding: 0.5rem;
 }
