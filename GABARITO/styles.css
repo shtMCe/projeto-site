@@ -1,0 +1,182 @@
+```css
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* ---------------- HEADER ---------------- */
+
+.hero{
+    background: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    ),
+    url("imagens/CAMPUS.jpeg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+
+    min-height: 80vh;
+
+    padding: 30px 10%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color: #8fd19e;
+}
+
+.hero-content{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.hero-content h1{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p{
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+
+.botao{
+    background-color: #2e7d32;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.botao:hover{
+    background-color: #1b5e20;
+}
+
+/* ---------------- MAIN ---------------- */
+
+main{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ---------------- CAMPUS ---------------- */
+
+.campus{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    margin: 80px 0;
+}
+
+.texto{
+    flex: 1;
+}
+
+.texto h2{
+    font-size: 2.5rem;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.texto p{
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.campus img{
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+/* ---------------- CURSOS ---------------- */
+
+.cursos{
+    margin-bottom: 80px;
+}
+
+.cursos h2{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2e7d32;
+    margin-bottom: 40px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    background-color: white;
+    width: 250px;
+    padding: 30px;
+
+    text-align: center;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* ---------------- FOOTER ---------------- */
+
+footer{
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+footer h3{
+    margin-bottom: 10px;
+}
+
+footer p{
+    margin-top: 10px;
+}
+```
